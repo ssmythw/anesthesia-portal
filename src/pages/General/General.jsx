@@ -39,7 +39,9 @@ const General = () => {
               className="hr"
             />
             <span className="hr">&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <Typography variant="h4">General Information</Typography>
+            <Typography style={{ display: "inline-block" }} variant="h4">
+              General Information
+            </Typography>
             <br />
             <br />
             <br />

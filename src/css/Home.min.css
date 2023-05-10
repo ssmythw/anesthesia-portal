@@ -1,0 +1,1 @@
+.main{background-image:url("steth.jpeg");height:calc(100vh - 80px);width:100%;background-size:cover;display:flex;justify-content:center;align-items:center;flex-direction:column}.main__hero-title{text-align:center;color:#fff;animation:taadaa 1s linear}@keyframes taadaa{0%{opacity:0}100%{opacity:1}}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "./Home.scss";
+import { Typography } from "@mui/material";
 
 const Home = () => {
   return (
@@ -15,17 +16,17 @@ const Home = () => {
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <main className="main">
-        <h1 className="main__hero-title text-6xl">
+        <Typography variant="h2" className="main__hero-title ">
           Department of Anesthesiology
-        </h1>
-        <h4 className="main__hero-title text-2xl">
+        </Typography>
+        <Typography className="main__hero-title" variant="h5">
           Southlake Regional Health Centre
-        </h4>
+        </Typography>
         <br />
         <br />
-        <i className="main__hero-title text-2xl">
+        <Typography className="main__hero-title" variant="h6" fontSize="lg">
           "We safeguard those who sleep"
-        </i>
+        </Typography>
       </main>
     </>
   );

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "./Navbar.scss";
 import MenuIcon from "@mui/icons-material/Menu";
 import DropdownMenu from "./DropdownMenu";
 import { Link } from "react-router-dom";
+import "./Navbar.scss";
 
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);

@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -38,6 +34,15 @@ code {
 .hover-underline-animation:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+hr {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 .reveal {
@@ -93,4 +98,12 @@ code {
   .hr {
     display: none !important;
   }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
