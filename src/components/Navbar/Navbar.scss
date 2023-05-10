@@ -1,0 +1,87 @@
+@import "../../common/styles/colors";
+
+.navbar {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background-color: $primary-turquoise;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  &__hamburger {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 25px;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  &__mobile-dropdown {
+    position: absolute;
+    top: 80px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    z-index: 10;
+    max-height: 0;
+    transition: max-height 0.6s;
+    vertical-align: bottom;
+    overflow: hidden;
+  }
+
+  &__mobile-dropdown_show {
+    max-height: 800px;
+    transition: max-height 1s;
+  }
+
+  &__list {
+    display: flex;
+    gap: 25px;
+    li {
+      cursor: pointer;
+    }
+    &-dropdown {
+      position: relative;
+    }
+    &-dropdown-menu {
+      position: absolute;
+      top: 100%;
+      padding: 15px;
+      background-color: white;
+      color: black;
+      display: none;
+      z-index: 99;
+      width: 190px;
+    }
+
+    &-dropdown-menu:hover {
+      display: block;
+    }
+
+    &_show:hover + .navbar__list-dropdown-menu {
+      display: block;
+    }
+  }
+}
+
+.dropdown__list {
+  cursor: pointer;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.dropdown__submenu {
+  margin-left: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar__hamburger {
+    opacity: 1;
+  }
+  .navbar__list {
+    display: none;
+  }
+}

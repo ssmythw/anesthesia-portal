@@ -1,0 +1,26 @@
+.main {
+  background-image: url("steth.jpeg");
+  height: calc(100vh - 80px);
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__hero-title {
+    text-align: center;
+    color: white;
+    animation: taadaa 1s linear;
+  }
+}
+
+@keyframes taadaa {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
