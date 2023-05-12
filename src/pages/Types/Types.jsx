@@ -23,7 +23,6 @@ const Types = () => {
           can be discussed with you at your preop visit..."
         />
         <title>Southlake - Types of Anesthesia</title>
-        <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <Banner
         name="Types of Anesthesia"
@@ -78,12 +77,13 @@ const Types = () => {
             directed toward the nerve supplying sensation to the surgical site.
             This is performed under ultrasound guidance to ensure the local
             anesthetic surrounds the nerve. By freezing the nerve, you may not
-            require as deep of an anesthetic and it may can provide prolonged
-            pain relief after shoulder, knee or ankle surgery. You will find
-            that when you wake up, your arm/leg is frozen so care must be taken
-            when ambulating. There is minimal discomfort in performing these
-            blocks and the potential benefit afterwards is considerable. Nerve
-            blocks are especially suited to shoulder/arm and foot/ankle surgery.
+            require as deep of an anesthetic and it may also lessen the need for
+            narcotics. It is a technique that is particularly suited for
+            shoulder, knee or ankle surgery. You will find that when you wake
+            up, your arm/leg is frozen so care must be taken when ambulating.
+            There is minimal discomfort in performing these blocks and the
+            potential benefit afterwards is considerable. Nerve blocks are
+            especially suited to shoulder/arm and foot/ankle surgery.
           </Typography>
           <br />
           <br />

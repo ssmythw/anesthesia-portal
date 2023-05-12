@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Faq from "react-faq-component";
 import Container from "@mui/material/Container";
 import "./QA.scss";
 import Banner from "../../components/Banner/Banner";
 import PsychologyAltIcon from "@mui/icons-material/PsychologyAlt";
+import { Helmet } from "react-helmet";
+import { reveal } from "../../utils/reveal";
 
 const QA = () => {
   const data = {
@@ -51,15 +53,30 @@ const QA = () => {
     // tabFocus: true
   };
 
+  useEffect(() => {
+    reveal();
+    window.addEventListener("scroll", reveal);
+  });
+
   return (
     <>
-      <Banner
-        name="FAQ Section"
-        icon={<PsychologyAltIcon fontSize="xl" className="svg_icons" />}
-      />
-      <Container maxWidth="lg" className="qa">
-        <Faq data={data} styles={styles} config={config} />
-      </Container>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta
+          name="description"
+          content="Department of Anesthesiology - Frequently asked questions."
+        />
+        <title>Southlake - Frequently Asked Questions</title>
+      </Helmet>
+      <div className="reveal fade-right">
+        <Banner
+          name="FAQ"
+          icon={<PsychologyAltIcon fontSize="xl" className="svg_icons" />}
+        />
+        <Container maxWidth="lg" className="qa">
+          <Faq data={data} styles={styles} config={config} />
+        </Container>
+      </div>
     </>
   );
 };

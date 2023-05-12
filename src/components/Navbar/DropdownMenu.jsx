@@ -3,6 +3,7 @@ import "./Navbar.scss";
 import classNames from "classnames";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { Typography } from "@mui/material";
 
 const DropdownMenu = ({ showDropdown }) => {
   const [arrow, setArrow] = useState({
@@ -30,19 +31,26 @@ const DropdownMenu = ({ showDropdown }) => {
       <ul className="dropdown__list">
         <li>Home</li>
         <li>Staff</li>
-        <li>
-          <span
-            style={{ margin: "-20px 0px", lineHeight: "0.5rem" }}
-            onClick={() => setArrow({ ...arrow, general: !arrow.general })}
-          >
+        <div>
+          <li onClick={() => setArrow({ ...arrow, general: !arrow.general })}>
             General Info
-            <KeyboardArrowRightIcon
-              style={{ display: arrow.general ? "none" : "inline" }}
-            />
-            <KeyboardArrowDownIcon
-              style={{ display: arrow.general ? "inline" : "none" }}
-            />
-          </span>
+            <Typography
+              variant="span"
+              style={{
+                display: arrow.general ? "none" : "inline",
+              }}
+            >
+              →
+            </Typography>
+            <Typography
+              variant="span"
+              style={{
+                display: arrow.general ? "inline" : "none",
+              }}
+            >
+              ↓
+            </Typography>
+          </li>
           <ul
             className="dropdown__submenu"
             style={{
@@ -53,7 +61,7 @@ const DropdownMenu = ({ showDropdown }) => {
             <li>Your Anesthegiologist</li>
             <li>Types of Anesthesia</li>
           </ul>
-        </li>
+        </div>
         <li className="">FAQ</li>
         <li>About</li>
       </ul>

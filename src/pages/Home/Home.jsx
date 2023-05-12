@@ -13,7 +13,6 @@ const Home = () => {
           content="Department of Anesthesiology - Southlake Regional Health Centre."
         />
         <title>Southlake - Department of Anesthesiology</title>
-        <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <main className="main">
         <Typography variant="h2" className="main__hero-title ">

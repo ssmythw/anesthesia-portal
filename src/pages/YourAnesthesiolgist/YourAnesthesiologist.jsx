@@ -25,7 +25,6 @@ const YourAnesthesiologist = () => {
           cardiac surgery ICU..."
         />
         <title>Southlake - Your Anesthesiologist</title>
-        <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <Banner
         name="Your Anesthesiologist"
@@ -41,7 +40,7 @@ const YourAnesthesiologist = () => {
               }}
             />
             <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <Typography variant="h4">Brief Synopsis</Typography>
+            <Typography variant="h4">Our Training</Typography>
             <br />
             <br />
             <br />

@@ -25,7 +25,6 @@ const General = () => {
             Anesthesia Assessment Clinic..."
         />
         <title>Southlake - General Information</title>
-        <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <Banner name="General/Preop" icon={<VaccinesIcon fontSize="xl" />} />
       <Container style={{ padding: "40px" }} maxWidth="md" className="general">
@@ -47,11 +46,11 @@ const General = () => {
             <br />
           </div>
           <Typography variant="p">
-            The Department of Anesthesiology at Southlake has ____ members who
-            provide comprehensive anesthetic care throughout the hospital. In
-            addition to working in the 14 main operating rooms, staff also look
-            after patients on the labour & delivery floor, endoscopy, the
-            Anesthesia Assessment Clinic (preop clinic),
+            The Department of Anesthesiology at Southlake has more than 30
+            members who provide comprehensive anesthetic care throughout the
+            hospital. In addition to working in the 14 main operating rooms,
+            staff also look after patients on the labour & delivery floor,
+            endoscopy, the Anesthesia Assessment Clinic (preop clinic),
             cardiology-electrophysiology department, the post cardiac surgery
             intensive care unit, cardiac surgery echo service, cataract surgery
             and the acute pain service. In the main operating rooms staff look

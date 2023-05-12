@@ -21,13 +21,17 @@
     right: 25px;
     opacity: 0;
     cursor: pointer;
+    color: white;
   }
 
   &__mobile-dropdown {
+    a,
+    li {
+      color: black;
+    }
     position: absolute;
     top: 80px;
     background-color: white;
-    color: black;
     width: 100%;
     z-index: 10;
     max-height: 0;
@@ -51,14 +55,14 @@
       position: relative;
     }
     &-dropdown-menu {
-      a {
-        color: black;
-      }
       position: absolute;
       top: 100%;
       padding: 15px;
       background-color: white;
-      color: black;
+      a,
+      li {
+        color: black;
+      }
       display: none;
       z-index: 99;
       width: 190px;
@@ -78,10 +82,19 @@
   cursor: pointer;
   font-weight: 400;
   padding: 20px;
+  line-height: 1.5rem;
+  li {
+    color: black;
+  }
 }
 
 .dropdown__submenu {
   margin-left: 25px;
+  color: black;
+}
+
+.MuiSvgIcon-root {
+  height: 19px;
 }
 
 @media only screen and (max-width: 600px) {
