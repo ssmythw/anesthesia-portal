@@ -38,7 +38,7 @@ const About = () => {
               }}
             />
             <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <Typography variant="h4">The Department</Typography>
+            <Typography variant="h4">Our Department</Typography>
             <br />
             <br />
             <br />

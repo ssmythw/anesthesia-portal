@@ -66,7 +66,10 @@ const Navbar = () => {
         </li>
       </ul>
       <MenuIcon className="navbar__hamburger" onClick={toggleDropdown} />
-      <DropdownMenu showDropdown={showDropdown} />
+      <DropdownMenu
+        showDropdown={showDropdown}
+        setShowDropdown={setShowDropdown}
+      />
     </nav>
   );
 };
