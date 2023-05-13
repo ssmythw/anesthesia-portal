@@ -78,7 +78,7 @@ const About = () => {
             department’s work has enabled patients to leave the hospital after
             knee replacement surgery with portable pain pumps that deliver
             freezing medicine around the joint thus minimizing narcotic use and
-            providing superior pain control. We have been able to reduce the
+            providing better pain control. We have been able to reduce the
             length of stay for these patients, most of whom go home the same day
             after surgery.
           </Typography>
@@ -124,6 +124,21 @@ const About = () => {
             anesthesia residents, and paramedics. We are a popular destination
             for students because of the acuity and variety of our work and the
             friendly, welcoming atmosphere at SRHC.
+          </Typography>
+          <br />
+          <br />
+          <Typography sx={{ textDecoration: "underline" }} variant="h6">
+            Awards
+          </Typography>
+          <br />
+          <Typography variant="p">
+            Our staff has been recognized for their commitment to patient care.
+            Three of the anesthesiologists have received the SRHC award for
+            leadership, one of SRHC's top awards. Individuals have also been
+            recognized for their excellence in teaching by the University of
+            Toronto and the Canadian Anesthesia Society's top award was given to
+            one of our staff in recognition of his outstanding contribution to
+            the field of anesthesiology at the national level.
           </Typography>
           <br />
           <br />

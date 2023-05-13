@@ -43,8 +43,8 @@ const QA = () => {
     // bgColor: 'white',
     titleTextColor: "black",
     rowTitleColor: "black",
-    // rowContentColor: 'grey',
-    // arrowColor: "red",
+    rowContentTextSize: "15px",
+    rowTitleTextSize: "22px",
   };
 
   const config = {

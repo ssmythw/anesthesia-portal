@@ -99,10 +99,11 @@ const General = () => {
           <Typography variant="p">
             Your surgeon may ask you to be seen by an anesthesiologist prior to
             surgery to evaluate your medications and whether any underlying
-            health issue needs to be optimized before surgery. Your anesthetist
-            in the Anesthesia Assessment Clinic is well trained to address any
-            concerns and answer any questions you may have. We want to ensure
-            you are prepared mentally and physically for your surgery.
+            health issue needs to be optimized before surgery. Your
+            anesthesiologist in the Anesthesia Assessment Clinic is well trained
+            to address any concerns and answer any questions you may have. We
+            want to ensure you are prepared mentally and physically for your
+            surgery.
           </Typography>
           <br />
           <br />
@@ -115,10 +116,10 @@ const General = () => {
             There are, however, several medications that need to be carefully
             managed/held before surgery. These include blood thinners, high
             blood pressure medications and diabetic drugs. You will need to
-            discuss this with the anesthetist and pharmacist in the Anesthesia
-            Assessment Clinic. Please bring all your medications with you to
-            your appointment. Instructions will be given to you regarding your
-            medications.
+            discuss this with the anesthesiologist and pharmacist in the
+            Anesthesia Assessment Clinic. Please bring all your medications with
+            you to your appointment. Instructions will be given to you regarding
+            your medications.
           </Typography>
           <br />
           <br />
@@ -146,9 +147,9 @@ const General = () => {
             Depending on the type of surgery, you may be given a mild pain
             reliever (i.e. Tylenol/Celebrex) after you check in. Many patients
             may experience some anxiety before surgery. This is completely
-            understandable. On occasion your anesthetist may order a mild
-            sedative pill for you. This should be discussed with the anesthetist
-            in the Preop Clinic.
+            understandable. On occasion your anesthesiologist may order a mild
+            sedative pill for you. This should be discussed with the
+            anesthesiologist in the Preop Clinic.
           </Typography>
           <br />
           <br />

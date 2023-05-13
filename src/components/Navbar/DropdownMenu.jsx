@@ -18,6 +18,9 @@ const DropdownMenu = ({ showDropdown, setShowDropdown }) => {
 
   const handleClick = () => {
     setShowDropdown(false);
+    setTimeout(() => {
+      setArrow({ ...arrow, general: false });
+    }, 1000);
   };
 
   useEffect(() => {
