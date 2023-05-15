@@ -5,6 +5,7 @@ import Banner from "../../components/Banner/Banner";
 import { reveal } from "../../utils/reveal";
 import VaccinesIcon from "@mui/icons-material/Vaccines";
 import "./Types.scss";
+import Footer from "../../components/Footer/Footer";
 
 const Types = () => {
   useEffect(() => {
@@ -128,6 +129,7 @@ const Types = () => {
           <br />
         </div>
       </Container>
+      <Footer />
     </>
   );
 };

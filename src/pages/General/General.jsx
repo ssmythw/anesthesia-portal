@@ -4,7 +4,8 @@ import Banner from "../../components/Banner/Banner";
 import { Container, List, ListItem, Typography } from "@mui/material";
 import { reveal } from "../../utils/reveal";
 import { Helmet } from "react-helmet";
-import VaccinesIcon from "@mui/icons-material/Vaccines";
+import Footer from "../../components/Footer/Footer";
+import MenuBookIcon from "@mui/icons-material/MenuBook";
 
 const General = () => {
   useEffect(() => {
@@ -26,7 +27,7 @@ const General = () => {
         />
         <title>Southlake - General Information</title>
       </Helmet>
-      <Banner name="General/Preop" icon={<VaccinesIcon fontSize="xl" />} />
+      <Banner name="General/Preop" icon={<MenuBookIcon fontSize="xl" />} />
       <Container style={{ padding: "40px" }} maxWidth="md" className="general">
         <div className="reveal fade-right">
           <div className="header">
@@ -114,12 +115,12 @@ const General = () => {
           <Typography variant="p">
             Many medications can be taken as usual the morning before surgery.
             There are, however, several medications that need to be carefully
-            managed/held before surgery. These include blood thinners, high
-            blood pressure medications and diabetic drugs. You will need to
-            discuss this with the anesthesiologist and pharmacist in the
-            Anesthesia Assessment Clinic. Please bring all your medications with
-            you to your appointment. Instructions will be given to you regarding
-            your medications.
+            managed before surgery. These include blood thinners, high blood
+            pressure medications and diabetic drugs. You will need to discuss
+            this with the anesthesiologist and pharmacist in the Anesthesia
+            Assessment Clinic. Please bring all your medications with you to
+            your appointment. Instructions will be given to you regarding your
+            medications.
           </Typography>
           <br />
           <br />
@@ -167,6 +168,7 @@ const General = () => {
           </Typography>
         </div>
       </Container>
+      <Footer />
     </>
   );
 };

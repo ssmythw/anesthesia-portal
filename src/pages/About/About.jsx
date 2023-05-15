@@ -5,6 +5,7 @@ import Banner from "../../components/Banner/Banner";
 import GroupsIcon from "@mui/icons-material/Groups";
 import "./About.scss";
 import { reveal } from "../../utils/reveal";
+import Footer from "../../components/Footer/Footer";
 
 const About = () => {
   useEffect(() => {
@@ -52,7 +53,7 @@ const About = () => {
             nurse assisting us with the in-patient care of those requiring more
             aggressive modalities to control post operative pain. This allows us
             to closely monitor their medication needs and minimize potential
-            side effects. The department works closely with ___ anesthesia
+            side effects. The department works closely with our anesthesia
             assistants in the operating room, the regional block room and in the
             cataract centre. They are invaluable in equipment preparation and
             assistance with airway management in the operating rooms.
@@ -73,14 +74,13 @@ const About = () => {
             anesthesia and cardiac surgery departments worked together to open
             the cardiac surgery ICU in ____. A number of our staff have gained
             expertise in intraoperative assessment of heart function with
-            transesophageal esophageal echocardiography (TEE) and we now have
-            ___ staff fully certified in TEE. Over the past two years the
-            department’s work has enabled patients to leave the hospital after
-            knee replacement surgery with portable pain pumps that deliver
-            freezing medicine around the joint thus minimizing narcotic use and
-            providing better pain control. We have been able to reduce the
-            length of stay for these patients, most of whom go home the same day
-            after surgery.
+            transesophageal echocardiography (TEE) and we now have ___ staff who
+            are fully certified in TEE. Over the past two years the department’s
+            work has enabled patients to leave the hospital after knee
+            replacement surgery with portable pain pumps that deliver freezing
+            medicine around the joint thus minimizing narcotic use and providing
+            better pain control. We have been able to reduce the length of stay
+            for these patients, most of whom go home the same day after surgery.
           </Typography>
           <br />
           <br />
@@ -140,14 +140,9 @@ const About = () => {
             one of our staff in recognition of his outstanding contribution to
             the field of anesthesiology at the national level.
           </Typography>
-          <br />
-          <br />
-          <Typography variant="p">
-            For further information regarding the practise of anesthesia, the
-            Canadian Anesthesia Society’s website is www.cas.ca
-          </Typography>
         </div>
       </Container>
+      <Footer />
     </>
   );
 };

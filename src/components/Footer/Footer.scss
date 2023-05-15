@@ -1,0 +1,13 @@
+@import "../../common/styles/colors";
+
+.footer {
+  background-color: $primary-turquoise;
+  color: white;
+  padding: 60px;
+}
+
+.address {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

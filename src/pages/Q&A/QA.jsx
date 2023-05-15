@@ -6,6 +6,7 @@ import Banner from "../../components/Banner/Banner";
 import PsychologyAltIcon from "@mui/icons-material/PsychologyAlt";
 import { Helmet } from "react-helmet";
 import { reveal } from "../../utils/reveal";
+import Footer from "../../components/Footer/Footer";
 
 const QA = () => {
   const data = {
@@ -14,17 +15,17 @@ const QA = () => {
       {
         title: "Will I wake up during the operation?",
         content:
-          "This is a question that we hear quite frequently. The incidence of awareness under anesthesia is very rare, about 1-2/1000. Certain factors such as substance abuse, opioid use, severe trauma (i.e. unstable from an accident), may increase the risk. It is therefore important that you provide a full history to your anesthetist so that we can minimize any risk of awareness for you.",
+          "This is a question that we hear quite frequently. The incidence of awareness under anesthesia is very rare, about 1-2/1000. Certain factors such as substance abuse, opioid use, and severe trauma (i.e. unstable from an accident), may increase the risk. It is therefore important that you provide a full history to your anesthetist so that we can minimize any risk of awareness for you.",
       },
       {
         title: "Will I feel sick afterwards?",
         content:
-          "Post-operative nausea and vomiting (PONV) are common after surgery, occurring about 30 - 40% of the time. There are a number of factors that increase the risk of PONV such as female, non-smokers and high narcotic use after surgery. Some anesthetic drugs may also contribute to PONV such as narcotics and nitrous oxide (laughing gas). If you are at an increased risk, we will administer medication(s) that can reduce the risk to between 5 - 10%.",
+          "Post-operative nausea and vomiting (PONV) is common after surgery, occurring about 30 - 40% of the time. There are a number of factors that increase the risk of PONV such as female, non-smokers and high narcotic use after surgery. Some anesthetic drugs may also contribute to PONV such as narcotics and nitrous oxide (laughing gas). If you are at an increased risk, we will administer medication(s) that can reduce the risk to between 5 - 10%.",
       },
       {
         title: "What are the risks of anesthesia?",
         content:
-          "In the 1970’s the published mortality risk was 1/100,000 but modern technological advances over the past 30-40 years have dramatically reduced the risks of surgery and anesthesia to 1/200,000. Minor risks include sore throat, PONV, tooth damage, and nerve injury due to positioning. More significant issues are allergic reactions and awareness. Death under anesthesia is an extremely rare event. Several patient factors such as sleep apnea, morbid obesity, high blood pressure, heart/lung disease, excessive alcohol use, drug abuse, smoking, diabetes, liver/kidney disease, neuromuscular disorders may increase the risk. Routine use of alcohol, pain medications or sedatives can affect the amount of anesthesia you may need. Smoking damages the lungs –so please be honest with us about your current habits. Tell your anesthetist about any health issues you may have so that we can plan your anesthetic and keep you safe.",
+          "In the 1970’s the published mortality risk was 1/100,000 but modern technological advances over the past 30-40 years have dramatically reduced the risks of surgery and anesthesia to 1/200,000. Minor risks include sore throat, PONV, tooth damage, and nerve injury due to positioning. More significant issues are allergic reactions and awareness. Death under anesthesia is an extremely rare event. Several patient factors such as sleep apnea, morbid obesity, high blood pressure, heart/lung disease, excessive alcohol use, drug abuse, smoking, diabetes, liver/kidney disease, neuromuscular disorders may increase the risk. Routine use of alcohol, marijuana, pain medications or sedatives can affect the amount of anesthesia you may need. Smoking damages the lungs –so please be honest with us about your current habits. Tell your anesthetist about any health issues you may have so that we can plan your anesthetic and keep you safe.",
       },
       {
         title: "Do you stay with me the whole time in the operating room?",
@@ -77,6 +78,7 @@ const QA = () => {
           <Faq data={data} styles={styles} config={config} />
         </Container>
       </div>
+      <Footer />
     </>
   );
 };

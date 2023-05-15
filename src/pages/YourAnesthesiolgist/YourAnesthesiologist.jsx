@@ -3,7 +3,8 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import Banner from "../../components/Banner/Banner";
 import { reveal } from "../../utils/reveal";
-import VaccinesIcon from "@mui/icons-material/Vaccines";
+import ThreePIcon from "@mui/icons-material/ThreeP";
+import Footer from "../../components/Footer/Footer";
 
 const YourAnesthesiologist = () => {
   useEffect(() => {
@@ -28,7 +29,7 @@ const YourAnesthesiologist = () => {
       </Helmet>
       <Banner
         name="Your Anesthesiologist"
-        icon={<VaccinesIcon fontSize="xl" />}
+        icon={<ThreePIcon fontSize="xl" />}
       />
       <Container style={{ padding: "40px" }} maxWidth="md" className="general">
         <div className="reveal fade-right">
@@ -69,6 +70,7 @@ const YourAnesthesiologist = () => {
           <br />
         </div>
       </Container>
+      <Footer />
     </>
   );
 };

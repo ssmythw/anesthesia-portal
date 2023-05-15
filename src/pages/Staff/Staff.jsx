@@ -8,6 +8,7 @@ import { Container, Grid, Pagination, Typography } from "@mui/material";
 import usePagination from "./Pagination";
 import TextField from "@mui/material/TextField";
 import { reveal } from "../../utils/reveal";
+import Footer from "../../components/Footer/Footer";
 
 const Staff = () => {
   const [staff, setStaff] = useState([]);
@@ -57,7 +58,7 @@ const Staff = () => {
               Our Team
             </Typography>
           </div>
-          <div className="staff">
+          {/* <div className="staff">
             <Grid container spacing={2}>
               {_DATA.currentData().map((staff) => (
                 <Grid item xs={12} md={6} key={staff.id}>
@@ -75,9 +76,10 @@ const Staff = () => {
               shape="rounded"
               onChange={handleChange}
             />
-          </div>
+          </div> */}
         </Container>
       </div>
+      <Footer />
     </>
   );
 };
