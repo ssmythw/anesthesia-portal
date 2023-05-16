@@ -74,11 +74,11 @@ const QA = () => {
           name="FAQ"
           icon={<PsychologyAltIcon fontSize="xl" className="svg_icons" />}
         />
-        <Container maxWidth="lg" className="qa">
-          <Faq data={data} styles={styles} config={config} />
+        <Container maxWidth="lg" className="container">
+          <Faq data={data} styles={styles} className="faq" config={config} />
         </Container>
       </div>
-      <Footer />
+      <Footer id="faq-footer" />
     </>
   );
 };

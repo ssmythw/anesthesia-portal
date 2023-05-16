@@ -29,7 +29,11 @@ const About = () => {
         name="About Us"
         icon={<GroupsIcon fontSize="xl" className="svg_icons-about" />}
       />
-      <Container style={{ padding: "40px" }} maxWidth="md" className="about">
+      <Container
+        style={{ padding: "40px" }}
+        maxWidth="md"
+        className="container"
+      >
         <div className="reveal fade-right">
           <div className="header">
             <hr

@@ -42,7 +42,7 @@ const Staff = () => {
         icon={<PeopleIcon className="svg_icons" fontSize="xl" />}
       />
       <div className="reveal fade-right">
-        <Container maxWidth="md">
+        <Container maxWidth="md" className="">
           <br />
           <br />
           <div className="header">
@@ -79,7 +79,6 @@ const Staff = () => {
           </div> */}
         </Container>
       </div>
-      <Footer />
     </>
   );
 };

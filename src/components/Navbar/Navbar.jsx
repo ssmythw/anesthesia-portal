@@ -42,14 +42,6 @@ const Navbar = () => {
               <li>
                 <Link
                   className="hover-underline-animation"
-                  to="your-anesthesiologist"
-                >
-                  Your Anesthesiologist
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="hover-underline-animation"
                   to="types-of-anesthesia"
                 >
                   Types of Anesthesia

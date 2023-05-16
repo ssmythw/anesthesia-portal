@@ -29,7 +29,11 @@ const Types = () => {
         name="Types of Anesthesia"
         icon={<VaccinesIcon fontSize="xl" />}
       />
-      <Container style={{ padding: "40px" }} maxWidth="md" className="general">
+      <Container
+        style={{ padding: "40px" }}
+        maxWidth="md"
+        className="container"
+      >
         <div className="reveal fade-right">
           <div className="header">
             <hr
