@@ -110,14 +110,13 @@ const Types = () => {
             General Anesthesia -
           </Typography>
           <Typography variant="span">
-            &nbsp;General Anesthesia - This means putting the whole body to
-            sleep for the surgery. In some cases, it will require a breathing
-            tube to be placed into your windpipe (trachea) to assist your
-            breathing. It is placed after you are asleep and removed before you
-            are awake. If you ever were told that it was difficult to insert a
-            breathing tube during a previous operation, be sure to tell the
-            physician anesthesiologist so that special airway equipment can be
-            ready for you.
+            &nbsp;This means putting the whole body to sleep for the surgery. In
+            some cases, it will require a breathing tube to be placed into your
+            windpipe (trachea) to assist your breathing. It is placed after you
+            are asleep and removed before you are awake. If you ever were told
+            that it was difficult to insert a breathing tube during a previous
+            operation, be sure to tell the physician anesthesiologist so that
+            special airway equipment can be ready for you.
           </Typography>
           <br />
           <br />

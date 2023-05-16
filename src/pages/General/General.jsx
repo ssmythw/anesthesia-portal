@@ -113,10 +113,15 @@ const General = () => {
             designated as a Fellow of the Royal College of Physicians (FRCP).
             Some then go on to complete a further year of training (fellowship
             year) in areas such as cardiac/pediatric/obstetrical anesthesia,
-            chronic pain, regional anesthesia, or public health. During your
-            surgery, your anesthesiologist will monitor your heart rate, blood
-            pressure, oxygen levels, breathing, temperature, level of anesthesia
-            and prepare to wake you up at the end of surgery as comfortable as
+            chronic pain, regional anesthesia, or public health.
+          </Typography>
+          <br />
+          <Typography variant="p">
+            During your surgery, your anesthesiologist will monitor your heart
+            rate, blood pressure, oxygen levels, breathing, temperature, and
+            level of anesthesia. He/she will administer medications based on the
+            type of surgery, your body weight and underlying health and then
+            prepare to wake you up at the end of surgery as comfortable as
             possible.
           </Typography>
           <br />
