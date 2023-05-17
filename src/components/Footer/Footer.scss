@@ -3,11 +3,9 @@
 .footer {
   background-color: $primary-turquoise;
   color: white;
-  padding: 60px;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  padding: 40px;
+  position: sticky;
+  top: 100%;
 }
 
 .address {

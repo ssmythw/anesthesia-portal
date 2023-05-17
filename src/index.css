@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 code {
@@ -62,6 +63,15 @@ ul {
 .active.fade-right {
   animation: fade-right 1s ease-in;
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 @keyframes fade-bottom {
   0% {
     transform: translateY(50px);
@@ -98,12 +108,4 @@ ul {
   .hr {
     display: none !important;
   }
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
 }
