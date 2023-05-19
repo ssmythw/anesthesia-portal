@@ -88,6 +88,7 @@ const About = () => {
           </Typography>
           <br />
           <br />
+          <img className="about-toys" src="guy.jpg" alt="" />
           <Typography sx={{ textDecoration: "underline" }} variant="h6">
             Specialty Training
           </Typography>

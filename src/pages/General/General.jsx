@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./General.scss";
 import Banner from "../../components/Banner/Banner";
-import { Container, List, ListItem, Typography } from "@mui/material";
+import { Container, Grid, List, ListItem, Typography } from "@mui/material";
 import { reveal } from "../../utils/reveal";
 import { Helmet } from "react-helmet";
 import Footer from "../../components/Footer/Footer";
@@ -84,6 +84,7 @@ const General = () => {
           </List>
           <br />
         </div>
+        <hr className="section-hr" />
         <div className="reveal fade-right">
           <div className="header">
             <hr
@@ -98,36 +99,47 @@ const General = () => {
             <br />
             <br />
           </div>
-          <Typography variant="p">
-            Anesthesiologists are medical doctors (MD) who have completed four
-            years of medical school followed by five years in residency training
-            in all areas of anesthesia including adult, pediatric, obstetrics,
-            heart and lung and acute/chronic pain management. They have spent
-            3-6 months in various intensive care (ICU) areas - adult ICU,
-            cardiac surgery ICU, pediatric/neonatal ICU, and the coronary care
-            unit. All residents also spend 3-6 months in the departments of
-            cardiology, respirology and nephrology. Anesthesiologists have the
-            broadest knowledge of these medical, intensive care and
-            resuscitation areas of any specialty. After their five years of
-            residency, they complete their final examinations to become
-            designated as a Fellow of the Royal College of Physicians (FRCP).
-            Some then go on to complete a further year of training (fellowship
-            year) in areas such as cardiac/pediatric/obstetrical anesthesia,
-            chronic pain, regional anesthesia, or public health.
-          </Typography>
-          <br />
-          <Typography variant="p">
-            During your surgery, your anesthesiologist will monitor your heart
-            rate, blood pressure, oxygen levels, breathing, temperature, and
-            level of anesthesia. He/she will administer medications based on the
-            type of surgery, your body weight and underlying health and then
-            prepare to wake you up at the end of surgery as comfortable as
-            possible.
-          </Typography>
+          <Grid container spacing={10}>
+            <Grid item sm={12} md={6}>
+              <Typography variant="p">
+                Anesthesiologists are medical doctors (MD) who have completed
+                four years of medical school followed by five years in residency
+                training in all areas of anesthesia including adult, pediatric,
+                obstetrics, heart and lung and acute/chronic pain management.
+                They have spent 3-6 months in various intensive care (ICU) areas
+                - adult ICU, cardiac surgery ICU, pediatric/neonatal ICU, and
+                the coronary care unit. All residents also spend 3-6 months in
+                the departments of cardiology, respirology and nephrology.
+                Anesthesiologists have the broadest knowledge of these medical,
+                intensive care and resuscitation areas of any specialty. After
+                their five years of residency, they complete their final
+                examinations to become designated as a Fellow of the Royal
+                College of Physicians (FRCP). Some then go on to complete a
+                further year of training (fellowship year) in areas such as
+                cardiac/pediatric/obstetrical anesthesia, chronic pain, regional
+                anesthesia, or public health.
+              </Typography>
+              <br />
+              <br />
+              <Typography variant="p">
+                During your surgery, your anesthesiologist will monitor your
+                heart rate, blood pressure, oxygen levels, breathing,
+                temperature, and level of anesthesia. He/she will administer
+                medications based on the type of surgery, your body weight and
+                underlying health and then prepare to wake you up at the end of
+                surgery as comfortable as possible.
+              </Typography>
+            </Grid>
+            <Grid style={{ width: "100%" }} item sm={12} md={6}>
+              <img className="our-training__img" src="ready-to-go.jpg" alt="" />
+            </Grid>
+          </Grid>
+
           <br />
           <br />
           <br />
         </div>
+        <hr className="section-hr" />
         <div className="reveal fade-right">
           <div className="header">
             <hr
@@ -172,6 +184,7 @@ const General = () => {
           </Typography>
           <br />
           <br />
+          <img className="preop__img" src="icu.jpg" alt="" />
           <Typography sx={{ textDecoration: "underline" }} variant="h6">
             Can I Eat Before Surgery?
           </Typography>

@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <Grid container>
-        <Grid item xs={12} md={4}>
+        <Grid className="footer-item" item xs={12} md={4}>
           <Typography variant="h6">Contact</Typography>
           <div className="address">
             <BusinessIcon></BusinessIcon>
@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
           </div>
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid className="footer-item" item xs={12} md={4}>
           <Typography variant="h6">Further Information</Typography>
           <Typography variant="p">
             Canadian Anesthesia Society -{" "}
@@ -39,7 +39,7 @@ const Footer = () => {
               style={{ color: "white", textDecoration: "underline" }}
               href="cas.ca"
             >
-              www.cas.ca
+              cas.ca
             </a>
           </Typography>
           <br />
@@ -53,7 +53,7 @@ const Footer = () => {
             </a>
           </Typography>
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid className="footer-item" item xs={12} md={4}>
           <Typography variant="h6">Our Mission</Typography>
           <Typography variant="p">
             Providing comprehensive anesthesia care in a safe and state of the
