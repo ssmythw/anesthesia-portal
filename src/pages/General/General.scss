@@ -28,6 +28,9 @@
   font-weight: 700;
   min-width: 100px;
   background-color: rgba($color: $primary-purple, $alpha: 0.2);
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-delay: 0s;
 }
 
 .our-training__img {
@@ -38,11 +41,8 @@
   box-shadow: 1px 1px 14px 1px black;
 }
 
-.flex {
-  text-align: center;
-  display: flex;
-  width: 100%;
-  justify-content: center;
+.list-item:hover {
+  transform: translate(0px, -5px);
 }
 
 .preop__img {
@@ -60,6 +60,10 @@
   border-top: 1px solid rgb(241, 241, 241);
   text-align: center;
   margin: 25px auto;
+}
+
+.general-icon {
+  transform: translateY(4.5px);
 }
 
 @media only screen and (max-width: 895px) {

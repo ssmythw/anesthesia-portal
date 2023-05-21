@@ -6,6 +6,7 @@ import { reveal } from "../../utils/reveal";
 import VaccinesIcon from "@mui/icons-material/Vaccines";
 import "./Types.scss";
 import Footer from "../../components/Footer/Footer";
+import LabelImportantIcon from "@mui/icons-material/LabelImportant";
 
 const Types = () => {
   useEffect(() => {
@@ -52,13 +53,18 @@ const Types = () => {
             <br />
           </div>
           <Typography variant="p">
-            Each anesthetic is planned for each patient on an individual basis
+            Anesthetics are planned for each patient on an individual basis
             considering the type of operation and your underlying health. This
             can be discussed with you at your preop visit.
           </Typography>
           <br />
           <br />
-          <Typography variant="span" style={{ fontWeight: "700" }}>
+          <img className="types-iv" src="pateint.webp" alt="" />
+          <LabelImportantIcon className="types-icon"></LabelImportantIcon>
+          <Typography
+            variant="span"
+            style={{ fontWeight: "700", display: "inline" }}
+          >
             Local Anesthesia -
           </Typography>
           <Typography variant="span">
@@ -69,7 +75,12 @@ const Types = () => {
           </Typography>
           <br />
           <br />
-          <Typography variant="span" style={{ fontWeight: "700" }}>
+          <LabelImportantIcon className="types-icon"></LabelImportantIcon>
+
+          <Typography
+            variant="span"
+            style={{ fontWeight: "700", display: "inline" }}
+          >
             Regional Anesthesia -
           </Typography>
           <Typography variant="span">
@@ -92,7 +103,12 @@ const Types = () => {
           </Typography>
           <br />
           <br />
-          <Typography variant="span" style={{ fontWeight: "700" }}>
+          <LabelImportantIcon className="types-icon"></LabelImportantIcon>
+
+          <Typography
+            variant="span"
+            style={{ fontWeight: "700", display: "inline" }}
+          >
             Neuraxial Anesthesia (spinal or epidural) -
           </Typography>
           <Typography variant="span">
@@ -106,7 +122,12 @@ const Types = () => {
           </Typography>
           <br />
           <br />
-          <Typography variant="span" style={{ fontWeight: "700" }}>
+          <LabelImportantIcon className="types-icon"></LabelImportantIcon>
+
+          <Typography
+            variant="span"
+            style={{ fontWeight: "700", display: "inline" }}
+          >
             General Anesthesia -
           </Typography>
           <Typography variant="span">
@@ -120,7 +141,12 @@ const Types = () => {
           </Typography>
           <br />
           <br />
-          <Typography variant="span" style={{ fontWeight: "700" }}>
+          <LabelImportantIcon className="types-icon"></LabelImportantIcon>
+
+          <Typography
+            variant="span"
+            style={{ fontWeight: "700", display: "inline" }}
+          >
             Deep Sedation -
           </Typography>
           <Typography variant="span">

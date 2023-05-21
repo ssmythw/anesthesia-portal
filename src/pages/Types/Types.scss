@@ -1,10 +1,12 @@
 .types-iv {
   height: 350px;
-  width: 60%;
   margin-left: 15px;
   object-fit: cover;
   float: right;
-  box-shadow: 1px 1px 14px 1px black;
+}
+
+.types-icon {
+  transform: translateY(5px);
 }
 
 @media only screen and (max-width: 715px) {

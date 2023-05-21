@@ -6,6 +6,7 @@ import { reveal } from "../../utils/reveal";
 import { Helmet } from "react-helmet";
 import Footer from "../../components/Footer/Footer";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
+import LabelImportantIcon from "@mui/icons-material/LabelImportant";
 
 const General = () => {
   useEffect(() => {
@@ -136,9 +137,11 @@ const General = () => {
           <br />
           <Grid container>
             <Grid sm={12} md={6} style={{ padding: "0px 15px" }}>
-              <Typography sx={{ textDecoration: "underline" }} variant="h6">
+              <LabelImportantIcon className="general-icon"></LabelImportantIcon>
+              <Typography sx={{ display: "inline" }} variant="h6">
                 Preop Clinic
               </Typography>
+              <br />
               <Typography variant="p">
                 Your surgeon may ask you to be seen by an anesthesiologist prior
                 to surgery to evaluate your medications and whether any
@@ -167,9 +170,12 @@ const General = () => {
               />
             </Grid>
             <Grid item sm={12} md={6} style={{ padding: "0px 15px" }}>
-              <Typography sx={{ textDecoration: "underline" }} variant="h6">
+              <LabelImportantIcon className="general-icon"></LabelImportantIcon>
+
+              <Typography sx={{ display: "inline" }} variant="h6">
                 Should I take My Medications?
               </Typography>
+              <br />
               <Typography variant="p">
                 Many medications can be taken as usual the morning before
                 surgery. There are, however, several medications that need to be
@@ -185,10 +191,12 @@ const General = () => {
           <br />
           <Grid container>
             <Grid item sm={12} md={6} style={{ padding: "0px 15px" }}>
-              <Typography sx={{ textDecoration: "underline" }} variant="h6">
+              <LabelImportantIcon className="general-icon"></LabelImportantIcon>
+
+              <Typography sx={{ display: "inline" }} variant="h6">
                 Can I Eat Before Surgery?
               </Typography>
-
+              <br />
               <Typography variant="p">
                 Solid foods are not to be taken the morning of your operation.
                 Your last solid foods should be the evening before your
@@ -219,10 +227,12 @@ const General = () => {
               />
             </Grid>
             <Grid item sm={12} md={6} style={{ padding: "0px 15px" }}>
-              <Typography sx={{ textDecoration: "underline" }} variant="h6">
+              <LabelImportantIcon className="general-icon"></LabelImportantIcon>
+
+              <Typography sx={{ display: "inline" }} variant="h6">
                 Preop Medication
               </Typography>
-
+              <br />
               <Typography variant="p">
                 Depending on the type of surgery, you may be given a mild pain
                 reliever (i.e. Tylenol/Celebrex) after you check in. Many
@@ -236,9 +246,12 @@ const General = () => {
           <br />
           <Grid container>
             <Grid item sm={12} md={6} style={{ padding: "0px 15px" }}>
-              <Typography sx={{ textDecoration: "underline" }} variant="h6">
+              <LabelImportantIcon className="general-icon"></LabelImportantIcon>
+
+              <Typography sx={{ display: "inline" }} variant="h6">
                 Can I Drive Home?
               </Typography>
+              <br />
               <Typography variant="p">
                 No. After your procedure you will be required to have someone
                 drive you home and stay with you for the next 24 hours. This is

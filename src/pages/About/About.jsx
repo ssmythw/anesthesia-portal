@@ -69,10 +69,7 @@ const About = () => {
           <br />
           <br />
           <LabelImportantIcon className="about-icon" />
-          <Typography
-            sx={{ textDecoration: "underline", display: "inline" }}
-            variant="h6"
-          >
+          <Typography sx={{ display: "inline" }} variant="h6">
             Developments
           </Typography>
           <br />
@@ -97,10 +94,7 @@ const About = () => {
           <br />
           <br />
           <LabelImportantIcon className="about-icon" />
-          <Typography
-            sx={{ textDecoration: "underline", display: "inline" }}
-            variant="h6"
-          >
+          <Typography sx={{ display: "inline" }} variant="h6">
             Specialty Training
           </Typography>
           <br />
@@ -116,10 +110,7 @@ const About = () => {
           <br />
           <br />
           <LabelImportantIcon className="about-icon" />
-          <Typography
-            sx={{ textDecoration: "underline", display: "inline" }}
-            variant="h6"
-          >
+          <Typography sx={{ display: "inline" }} variant="h6">
             Representation
           </Typography>
           <br />
@@ -135,10 +126,7 @@ const About = () => {
           <br />
           <br />
           <LabelImportantIcon className="about-icon" />
-          <Typography
-            sx={{ textDecoration: "underline", display: "inline" }}
-            variant="h6"
-          >
+          <Typography sx={{ display: "inline" }} variant="h6">
             Teaching
           </Typography>
           <br />
@@ -152,10 +140,7 @@ const About = () => {
           <br />
           <br />
           <LabelImportantIcon className="about-icon" />
-          <Typography
-            sx={{ textDecoration: "underline", display: "inline" }}
-            variant="h6"
-          >
+          <Typography sx={{ display: "inline" }} variant="h6">
             Awards
           </Typography>
           <br />
