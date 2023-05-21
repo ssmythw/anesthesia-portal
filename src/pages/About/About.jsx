@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import Banner from "../../components/Banner/Banner";
 import GroupsIcon from "@mui/icons-material/Groups";
+import LabelImportantIcon from "@mui/icons-material/LabelImportant";
 import "./About.scss";
 import { reveal } from "../../utils/reveal";
 import Footer from "../../components/Footer/Footer";
@@ -64,7 +65,14 @@ const About = () => {
           </Typography>
           <br />
           <br />
-          <Typography sx={{ textDecoration: "underline" }} variant="h6">
+          <img className="about-toys" src="guy.jpg" alt="" />
+          <br />
+          <br />
+          <LabelImportantIcon className="about-icon" />
+          <Typography
+            sx={{ textDecoration: "underline", display: "inline" }}
+            variant="h6"
+          >
             Developments
           </Typography>
           <br />
@@ -88,8 +96,11 @@ const About = () => {
           </Typography>
           <br />
           <br />
-          <img className="about-toys" src="guy.jpg" alt="" />
-          <Typography sx={{ textDecoration: "underline" }} variant="h6">
+          <LabelImportantIcon className="about-icon" />
+          <Typography
+            sx={{ textDecoration: "underline", display: "inline" }}
+            variant="h6"
+          >
             Specialty Training
           </Typography>
           <br />
@@ -104,7 +115,11 @@ const About = () => {
           </Typography>
           <br />
           <br />
-          <Typography sx={{ textDecoration: "underline" }} variant="h6">
+          <LabelImportantIcon className="about-icon" />
+          <Typography
+            sx={{ textDecoration: "underline", display: "inline" }}
+            variant="h6"
+          >
             Representation
           </Typography>
           <br />
@@ -119,7 +134,11 @@ const About = () => {
           </Typography>
           <br />
           <br />
-          <Typography sx={{ textDecoration: "underline" }} variant="h6">
+          <LabelImportantIcon className="about-icon" />
+          <Typography
+            sx={{ textDecoration: "underline", display: "inline" }}
+            variant="h6"
+          >
             Teaching
           </Typography>
           <br />
@@ -132,7 +151,11 @@ const About = () => {
           </Typography>
           <br />
           <br />
-          <Typography sx={{ textDecoration: "underline" }} variant="h6">
+          <LabelImportantIcon className="about-icon" />
+          <Typography
+            sx={{ textDecoration: "underline", display: "inline" }}
+            variant="h6"
+          >
             Awards
           </Typography>
           <br />

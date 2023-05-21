@@ -92,7 +92,6 @@ const Types = () => {
           </Typography>
           <br />
           <br />
-          <img className="types-iv" src="iv.jpg" alt="" />
           <Typography variant="span" style={{ fontWeight: "700" }}>
             Neuraxial Anesthesia (spinal or epidural) -
           </Typography>

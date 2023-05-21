@@ -7,7 +7,6 @@ import Home from "./pages/Home/Home";
 import QA from "./pages/Q&A/QA";
 import Staff from "./pages/Staff/Staff";
 import Types from "./pages/Types/Types";
-import YourAnesthesiologist from "./pages/YourAnesthesiolgist/YourAnesthesiologist";
 
 function App() {
   return (
@@ -19,10 +18,6 @@ function App() {
         <Route path="questions-and-answers" element={<QA />} />
         <Route path="staff" element={<Staff />} />
         <Route path="general-and-preop" element={<General />} />
-        <Route
-          path="your-anesthesiologist"
-          element={<YourAnesthesiologist />}
-        />
         <Route path="types-of-anesthesia" element={<Types />} />
       </Routes>
     </BrowserRouter>

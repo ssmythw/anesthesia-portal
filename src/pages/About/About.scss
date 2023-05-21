@@ -1,15 +1,26 @@
 @import "../../common/styles/colors";
 
 .svg_icons-about {
-  transform: scale(1.5);
+  transform: scale(1.2);
   margin-left: 10px !important;
 }
 
 .about-toys {
   height: 375px;
-  width: 50%;
+  width: 100%;
   object-fit: cover;
-  float: left;
-  margin-right: 15px;
+  box-shadow: 1px 1px 10px 1px black;
+}
+
+.about-doctor {
+  height: 660px;
+  width: 450px;
+  margin-left: 15px;
+  object-fit: cover;
+  float: right;
   box-shadow: 1px 1px 14px 1px black;
+}
+
+.about-icon {
+  transform: translateY(5px);
 }

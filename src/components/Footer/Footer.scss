@@ -6,6 +6,8 @@
   padding: 40px;
   position: sticky;
   top: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .address {
@@ -17,4 +19,11 @@
 
 .footer-item {
   text-align: center;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+  .footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

@@ -1,3 +1,5 @@
+@import "../../common/styles/colors";
+
 .header {
   display: flex;
   align-items: center;
@@ -7,21 +9,50 @@
   position: relative;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgba($color: $secondary-blue, $alpha: 0.2);
+  padding: 10px;
+}
+
+.list-item {
+  display: flex !important;
+  justify-content: center !important;
+  width: 95% !important;
+  border: 1px solid black;
+  padding: 20px !important;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 4px 8px 1px black;
+  font-weight: 700;
+  min-width: 100px;
+  background-color: rgba($color: $primary-purple, $alpha: 0.2);
+}
+
 .our-training__img {
-  height: 450px;
-  width: 100%;
+  height: 500px;
+  width: 50%;
   object-fit: cover;
+  float: right;
   box-shadow: 1px 1px 14px 1px black;
-  transform: translateY(25px);
+}
+
+.flex {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .preop__img {
   height: 255px;
-  margin-right: 15px;
-  float: left;
-  width: 70%;
+  width: 400px;
   object-fit: cover;
-  box-shadow: 1px 1px 14px 1px black;
+
+  &_hide {
+    display: block;
+  }
 }
 
 .section-hr {
@@ -29,4 +60,10 @@
   border-top: 1px solid rgb(241, 241, 241);
   text-align: center;
   margin: 25px auto;
+}
+
+@media only screen and (max-width: 895px) {
+  .preop__img_hide {
+    display: none;
+  }
 }
