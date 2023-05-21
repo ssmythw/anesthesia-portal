@@ -173,7 +173,7 @@ const General = () => {
               <LabelImportantIcon className="general-icon"></LabelImportantIcon>
 
               <Typography sx={{ display: "inline" }} variant="h6">
-                Should I take My Medications?
+                Should I Take My Medications?
               </Typography>
               <br />
               <Typography variant="p">

@@ -65,7 +65,7 @@ const About = () => {
           </Typography>
           <br />
           <br />
-          <img className="about-toys" src="guy.jpg" alt="" />
+          <img className="about-toys" src="banner.jpg" alt="" />
           <br />
           <br />
           <LabelImportantIcon className="about-icon" />
@@ -114,6 +114,7 @@ const About = () => {
             Representation
           </Typography>
           <br />
+          <img className="about-gas" src="gas.png" alt="" />
           <Typography variant="p">
             Apart from their busy work at SRHC, several staff also contribute
             their time to various committees at the provincial and regulatory

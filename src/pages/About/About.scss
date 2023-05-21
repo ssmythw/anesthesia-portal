@@ -9,7 +9,6 @@
   height: 375px;
   width: 100%;
   object-fit: cover;
-  box-shadow: 1px 1px 10px 1px black;
 }
 
 .about-doctor {
@@ -24,4 +23,9 @@
 .about-icon {
   transform: translateY(4.5px);
   color: rgba($color: $primary-purple, $alpha: 0.5);
+}
+
+.about-gas {
+  height: 300px;
+  float: right;
 }
