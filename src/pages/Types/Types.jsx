@@ -53,7 +53,7 @@ const Types = () => {
             <br />
           </div>
           <Typography variant="p">
-            Anesthetics are planned for each patient on an individual basis
+            Anesthesia is planned for each patient on an individual basis
             considering the type of operation and your underlying health. This
             can be discussed with you at your preop visit.
           </Typography>

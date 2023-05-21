@@ -1,3 +1,5 @@
+@import "../../common/styles/colors";
+
 .types-iv {
   height: 350px;
   margin-left: 15px;
@@ -7,6 +9,7 @@
 
 .types-icon {
   transform: translateY(5px);
+  color: rgba($color: $primary-purple, $alpha: 0.5);
 }
 
 @media only screen and (max-width: 715px) {
