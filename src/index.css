@@ -1,8 +1,6 @@
-@import "./common/styles/_colors.scss ";
-
 body {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  padding: 0;
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
   line-height: 1.3rem;
