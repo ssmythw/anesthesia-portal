@@ -24,10 +24,9 @@
   padding: 20px !important;
   margin: 10px;
   border-radius: 5px;
-  box-shadow: 1px 1px 8px 1px black;
   font-weight: 700;
   min-width: 100px;
-  background-color: rgba($color: $primary-purple, $alpha: 0.15);
+  border-left: 5px solid $primary-turquoise;
   transition-property: transform;
   transition-duration: 1s;
   transition-delay: 0s;
