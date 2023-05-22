@@ -10,7 +10,7 @@ import Footer from "../../components/Footer/Footer";
 
 const QA = () => {
   const data = {
-    title: "Frequently Asked Questions About Anesthesia",
+    title: "FAQ About Anesthesia",
     rows: [
       {
         title: "Will I wake up during the operation?",
@@ -70,10 +70,7 @@ const QA = () => {
         <title>Southlake - Frequently Asked Questions</title>
       </Helmet>
       <div className="reveal fade-right">
-        <Banner
-          name="FAQ"
-          icon={<PsychologyAltIcon fontSize="xl" className="svg_icons" />}
-        />
+        <Banner name="Frequently Asked Questions" />
         <Container maxWidth="lg" className="container">
           <Faq data={data} styles={styles} className="faq" config={config} />
         </Container>

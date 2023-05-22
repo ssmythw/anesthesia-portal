@@ -26,10 +26,7 @@ const About = () => {
         />
         <title>Southlake - About</title>
       </Helmet>
-      <Banner
-        name="About Us"
-        icon={<GroupsIcon fontSize="xl" className="svg_icons-about" />}
-      />
+      <Banner name="About Us" />
       <Container
         style={{ padding: "40px" }}
         maxWidth="md"

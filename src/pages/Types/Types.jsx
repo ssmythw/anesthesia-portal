@@ -26,10 +26,7 @@ const Types = () => {
         />
         <title>Southlake - Types of Anesthesia</title>
       </Helmet>
-      <Banner
-        name="Types of Anesthesia"
-        icon={<VaccinesIcon fontSize="xl" />}
-      />
+      <Banner name="Types of Anesthesia" />
       <Container
         style={{ padding: "40px" }}
         maxWidth="md"

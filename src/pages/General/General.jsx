@@ -28,7 +28,7 @@ const General = () => {
         />
         <title>Southlake - General Information</title>
       </Helmet>
-      <Banner name="General/Preop" icon={<MenuBookIcon fontSize="xl" />} />
+      <Banner name="General & Preoperative Information" />
       <Container
         style={{ padding: "40px" }}
         maxWidth="md"
