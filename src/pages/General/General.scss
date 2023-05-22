@@ -12,7 +12,6 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-color: rgba($color: $secondary-blue, $alpha: 0.2);
   padding: 10px;
 }
 
